@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="bootstrap (1).css">
+</head>
+<body>
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked="" onclick="">
+        <label class="btn btn-outline-primary" for="btnradio1">Tus tareas</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked="">
+        <label class="btn btn-outline-primary" for="btnradio2">Tareas completadas</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" checked="">
+        <label class="btn btn-outline-primary" for="btnradio3">Pendientes</label>
+      </div>
+
+      <ul id="listaT">
+          
+      </ul>
+      <input type="text" placeholder="Escribe tu nueva tarea" id="nuevaTarea">
+      <div class="d-grid gap-2">
+        <button class="btn btn-lg btn-primary" type="button" onclick="añadir()">AGREGAR TAREA</button>
+      </div>
+
+      <script src="lista.js"></script>
+</body>
+</html>
